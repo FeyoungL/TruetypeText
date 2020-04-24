@@ -118,7 +118,7 @@ namespace TrueTypeText
                     tvList.Nodes.Add(wordNode);
                     //获取字符编码
                     uint ch = GetGB2312Coding(t);
-
+                    
                     //获取轮廓数据
                     DOutline outline = WordGraph.GetOutline(ch, font);
                     //构建轮廓实例
